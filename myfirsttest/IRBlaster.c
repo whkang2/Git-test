@@ -58,7 +58,7 @@ void Device_Init(void)
 
 	sprintf(device_info.dev_model,"IRBlaster"); 
 	sprintf(device_info.app_version,this_app_version);
-
+	//whkang2 add here
 	device_info.lan_id = GetCFLinkLANID();
 	device_info.sub_id = GetCFLinkSUBID();
 	GetCFLink485Version(device_info.cflink_version);
