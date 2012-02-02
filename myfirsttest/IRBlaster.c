@@ -55,7 +55,7 @@ void Device_Init(void)
 	IRIN_PORT1_TRIS
 	IRIN_PORT2_TRIS
 	IR8_init(SLOT1);
-
+	//whkang add here
 	sprintf(device_info.dev_model,"IRBlaster"); 
 	sprintf(device_info.app_version,this_app_version);
 
