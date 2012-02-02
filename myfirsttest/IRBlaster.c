@@ -43,6 +43,7 @@ extern CF_DeviceInfo device_info;
 
 void Device_Init(void)
 {
+	//Add 2 line here from whkang
 	LED1_TRIS		
 	LED2_TRIS
 	LED3_TRIS
